@@ -252,6 +252,7 @@ def GetExperiment():
 def Verbose(flag=True):
   experiment.Verbose(flag)
   _vars().verbose = flag
+  print "Hello World"
 
 SetVerbose = Verbose  # alias
 
@@ -627,3 +628,10 @@ def AnnotateC1Activity(image=0, scale=0):
 @depends(MODEL)
 def AnnotateS1Activity(image=0, scale=0):
   misc.AnnotateS1Activity(GetExperiment(), image, scale)
+
+############ USER ADDED FUNCTIONS ##############
+
+def hello():
+  print "Hello World!"
+    
+    
