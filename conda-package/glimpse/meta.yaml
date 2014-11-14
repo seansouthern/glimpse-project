@@ -3,7 +3,7 @@ package:
   version: !!str 0.2.3
 
 source:
-  git_url: https://github.com/mthomure/glimpse-project.git
+  git_url: https://github.com/seansouthern/glimpse-project.git
   git_tag: master
 
 #  patches:
