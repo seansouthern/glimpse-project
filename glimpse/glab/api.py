@@ -633,6 +633,5 @@ def AnnotateS1Activity(image=0, scale=0):
 
 def hello():
   print "Hello World!"
-  print "Hello from new workspace!"
-    
+  print "Testing shell script" 
     
