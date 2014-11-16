@@ -633,5 +633,5 @@ def AnnotateS1Activity(image=0, scale=0):
 
 def hello():
   print "Hello World!"
-  print "Testing shell script" 
+  print "Testing build retarget" 
     
