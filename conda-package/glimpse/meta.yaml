@@ -3,7 +3,7 @@ package:
   version: !!str 0.2.3
 
 source:
-  git_url: ../
+  git_url: ../../
 
    #patches:
    # List any patch files here
