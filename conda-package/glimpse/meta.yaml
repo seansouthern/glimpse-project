@@ -32,7 +32,7 @@ requirements:
     - decorator
     - ipython 2.1.0
     - matplotlib
-    - numpy
+    - numpy 1.8.1
     - pil
     - python
     - pyzmq 14.3.0
@@ -40,13 +40,12 @@ requirements:
     - scipy
     - traits
     - traitsui
-    - setuptools
 
   run:
     - decorator
     - ipython 2.1.0
     - matplotlib
-    - numpy
+    - numpy 1.8.1
     - pil
     - python
     - pyzmq 14.3.0
