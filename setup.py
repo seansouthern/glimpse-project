@@ -159,6 +159,8 @@ setup(
     "traitsui",
   ],
   setup_requires = [
+    # fix for conda build error
+    "setuptools",
     "numpy",
   ],
   package_data = {
