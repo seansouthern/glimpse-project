@@ -4,7 +4,7 @@ package:
 
 source:
   #git_url: https://github.com/seansouthern/glimpse-project.git
-  git_url: ../conda-package
+  git_url: ../../
   git_tag: master
 
 
