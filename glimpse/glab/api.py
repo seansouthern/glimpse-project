@@ -635,3 +635,9 @@ def hello():
   print "Hello World!"
   print "Testing build/install script"
   
+def easyExperiment():
+  SetCorpusByName("easy")
+  ImprintS2Prototypes(10)
+  EvaluateClassifier()
+  results = GetEvaluationResults()
+  print "Classification accuracy:", results.score
