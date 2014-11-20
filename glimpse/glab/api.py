@@ -638,7 +638,7 @@ def hello():
 def easyExperiment():
   SetCorpusByName("easy")
   ImprintS2Prototypes(10)
+  print getFeatures()
   EvaluateClassifier()
   results = GetEvaluationResults()
   print "Classification accuracy:", results.score
-  print getFeatures()
