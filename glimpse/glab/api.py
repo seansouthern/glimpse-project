@@ -635,11 +635,11 @@ def hello():
   print "Hello World!"
   print "Testing build/install script"
   
+#def printS1P
+  
 def easyExperiment():
-  SetCorpusByName("easy")
+  SetCorpusByName("/home/sean/Desktop/Object Recog - HMAX/101_ObjectCategories")
   ImprintS2Prototypes(10)
-  print showPrototype(0)
-  print GetImageFeatures()
   EvaluateClassifier()
   results = GetEvaluationResults()
   print "Classification accuracy:", results.score

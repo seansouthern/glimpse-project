@@ -8,19 +8,20 @@
 # TODO: we should probably move ExtractHistogramFeatures() to .utils, and rename
 # .misc to .analysis
 
-import math
-import numpy as np
-from scipy.misc import toimage, fromimage
 import Image
-
-from glimpse.models.ml import Layer
 from glimpse.models.base import BuildLayer
+from glimpse.models.ml import Layer
 from glimpse.models.ml.misc import GetS2ReceptiveField
 from glimpse.util.garray import FlattenArrays
 from glimpse.util.gimage import MakeScalePyramid
 from glimpse.util.gplot import Show2dArray, Show3dArray
+import math
+from scipy.misc import toimage, fromimage
+
+import numpy as np
 
 from .experiment import ExpError, ResolveLayers
+
 
 def ExtractHistogramFeatures(layers, states, low=0, high=0.2, bins=None):
   """Compute image features as a histogram over location and scale.
