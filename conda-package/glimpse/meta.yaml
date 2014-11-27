@@ -78,7 +78,7 @@ test:
     # You can put test commands to be run here.  Use this to test that the
     # entry points work.
 
-    - glab -E -v --predictions -p imprint --corpus-name easy
+    #- glab -E -v --predictions -p imprint --corpus-name easy
 
   # You can also put a file called run_test.py in the recipe that will be run
   # at test time.
