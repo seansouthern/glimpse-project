@@ -637,7 +637,7 @@ def hello():
 #def printS1P
   
 def easyExperiment():
-  SetCorpusByName("/home/sean/Desktop/Object Recog - HMAX/101_ObjectCategories/accordion")
+  SetCorpusByName("/home/sean/Desktop/Corpii/Small101Compare")
   ImprintS2Prototypes(10)
   EvaluateClassifier()
   results = GetEvaluationResults()
