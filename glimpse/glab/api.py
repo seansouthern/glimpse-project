@@ -638,7 +638,7 @@ def hello():
   
 def easyExperiment():
   SetCorpusByName("/home/sean/Desktop/Corpii/Small101Compare")
-  ImprintS2Prototypes(10)
+  ImprintS2Prototypes(100)
   EvaluateClassifier()
   results = GetEvaluationResults()
   print "Classification accuracy:", results.score
