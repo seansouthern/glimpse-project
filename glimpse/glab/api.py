@@ -252,7 +252,6 @@ def GetExperiment():
 def Verbose(flag=True):
   experiment.Verbose(flag)
   _vars().verbose = flag
-  print "Hello World"
 
 SetVerbose = Verbose  # alias
 
@@ -638,7 +637,7 @@ def hello():
 #def printS1P
   
 def easyExperiment():
-  SetCorpusByName("/home/sean/Desktop/Object Recog - HMAX/101_ObjectCategories")
+  SetCorpusByName("/home/sean/Desktop/Object Recog - HMAX/101_ObjectCategories/accordion")
   ImprintS2Prototypes(10)
   EvaluateClassifier()
   results = GetEvaluationResults()
